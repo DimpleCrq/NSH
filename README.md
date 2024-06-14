@@ -4,9 +4,9 @@
 
 ## 模型简介
 
-​		Learning to Hash Naturally Sorts发表在[IJCAI 2022(CCFA)]([[2201.13322\] Learning to Hash Naturally Sorts (arxiv.org)](https://arxiv.org/abs/2201.13322))。NSH是一种无监督深度哈希学习方法，旨在解决数据相似性排序中的非可微问题。它采用SoftSort方法，通过对样本哈希码的汉明距离进行排序，并利用排序噪声对比估计（SortedNCE）损失，动态优化数据的排序检索候选列表。NSH在端到端训练中有效利用数据的语义信息，在提升检索性能的同时显著提高哈希码的质量和排序准确性。
+​		Learning to Hash Naturally Sorts发表在[IJCAI 2022(CCFA)]([arxiv.org](https://arxiv.org/abs/2201.13322))。NSH是一种无监督深度哈希学习方法，旨在解决数据相似性排序中的非可微问题。它采用SoftSort方法，通过对样本哈希码的汉明距离进行排序，并利用排序噪声对比估计（SortedNCE）损失，动态优化数据的排序检索候选列表。NSH在端到端训练中有效利用数据的语义信息，在提升检索性能的同时显著提高哈希码的质量和排序准确性。
 
-![1](\images\1.png)
+<img src=\images\1.png alt="image-20240614090104863" width="700" />
 
 **本人尝试对NSH模型进行复现，但代码有问题，模型并未收敛。**
 
@@ -14,11 +14,11 @@
 
 在论文中NSH的测试效果如下：
 
-<img src=\images\2.png alt="image-20240614090104863" width="500" />
+<img src=\images\2.png alt="image-20240614090104863" width="700" />
 
-<img src=\images\3.png alt="image-20240614090145253" width="500" />
+<img src=\images\3.png alt="image-20240614090145253" width="700" />
 
-<img src=\images\4.png alt="image-20240614090211674" width="500" />
+<img src=\images\4.png alt="image-20240614090211674" width="700" />
 
 ## 数据集
 
